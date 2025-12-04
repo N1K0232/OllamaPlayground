@@ -1,1 +1,17 @@
-<Solution />
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/OllamaPlayground.ApiService.BusinessLayer/OllamaPlayground.ApiService.BusinessLayer.csproj" Id="b02ae942-6872-4e93-b57c-67d8694a9ca2" />
+    <Project Path="src/OllamaPlayground.ApiService/OllamaPlayground.ApiService.csproj" />
+    <Project Path="src/OllamaPlayground.AppHost/OllamaPlayground.AppHost.csproj" Id="fdcd6274-800f-4ac0-97fa-97a9974fba31" />
+    <Project Path="src/OllamaPlayground.ServiceDefaults/OllamaPlayground.ServiceDefaults.csproj" />
+    <Project Path="src/OllamaPlayground.Shared/OllamaPlayground.Shared.csproj" Id="e47c2109-83a9-411b-9a10-9c6b5bcdddfc" />
+    <Project Path="src/OllamaPlayground.Web/OllamaPlayground.Web.csproj" />
+  </Folder>
+</Solution>

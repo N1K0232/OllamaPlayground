@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="OllamaNET" Version="3.3.6" />
+    <PackageReference Include="OperationResultTools" Version="1.0.33" />
+    <PackageReference Include="TinyHelpers" Version="3.3.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OllamaPlayground.Shared\OllamaPlayground.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
